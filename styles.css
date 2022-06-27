@@ -16,8 +16,11 @@ hr {
 }
 
 /** spaces **/
+.padding-min {
+    padding-bottom: 0.5rem;
+}
 .padding-med {
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 /** container **/
