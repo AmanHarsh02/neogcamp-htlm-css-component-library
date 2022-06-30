@@ -16,11 +16,26 @@ hr {
 }
 
 /** spaces **/
-.padding-min {
+.padding-min-bottom {
     padding-bottom: 0.5rem;
 }
-.padding-med {
-    padding-bottom: 1.5rem;
+.padding-min-top {
+    padding-top: 0.1rem;
+}
+.padding-med-bottom {
+    padding-bottom: 1.0rem;
+}
+.padding-med-top {
+    padding-top: 1.5rem;
+}
+.padding-max-bottom {
+    padding-bottom: 2.0rem;
+}
+.margin-med-top {
+    margin-top: 1.5rem;
+}
+.margin-med-bottom {
+    margin-bottom: 1.5rem;
 }
 
 /** container **/
@@ -31,6 +46,25 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+
+.container .blog-image{
+    max-width: 250px;
+    display: block;
+}
+
+.container-border {
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.container .container-heading {
+    margin-bottom: 0.5rem;
+}
+
+.blog .container-center {
+    max-width: 700px;
 }
 
 /** links **/
