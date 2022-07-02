@@ -48,8 +48,9 @@ hr {
     margin: auto;
 }
 
-.container .blog-image{
-    max-width: 250px;
+.blog-image{
+    width: 700px;
+    height: 400px;
     display: block;
 }
 
@@ -141,6 +142,10 @@ hr {
     color: var(--primary-color)
 }
 
+.heading-focus {
+    color: var(--primary-color)
+}
+
 /** sections **/
 .section {
     padding: 2rem;
@@ -174,4 +179,39 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+/** blog **/
+.blog-heading {
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+    font-weight: 10;
+    font-size: 2.5rem;
+    color: var(--dark-gray);
+}
+
+.blog-date {
+    margin-top: 0rem;
+    font-weight: bold;
+}
+
+.blog h2 {
+    margin-top: 3rem;
+    font-weight: 100;
+}
+
+.blog .blog-credit-link {
+    color: var(--primary-color);
+    padding: 0rem 0rem;
+}
+
+.in-blog-image {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
 }
